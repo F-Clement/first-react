@@ -8,6 +8,8 @@ import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrev
 import EventsClass from './components/EventsClass';
 import EventsFuctional from './components/EventsFuctional';
 import EventBinding from './components/EventBinding';
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <StatefulGreetingWithPrevState /> */}
       {/* <EventsFuctional />
       <EventsClass /> */}
-      <EventBinding />
+      {/* <EventBinding /> */}
+      <ConditionalRenderingClass />
+      <ConditionalRenderingFunctional connected={true} />
     </div>
   );
 }
