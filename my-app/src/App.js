@@ -14,6 +14,7 @@ import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParents';
 import RederingLists from './components/RederingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
 
 function App() {
     return (
@@ -30,7 +31,8 @@ function App() {
             {/* <NestingComponents /> */}
             {/* <MethodsAsPropsParent /> */}
             {/* <RederingLists /> */}
-            <LifeCyclesCDM />
+            {/* <LifeCyclesCDM /> */}
+            <LifeCyclesCDU />
         </div>
     );
 }
