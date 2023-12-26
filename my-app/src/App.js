@@ -13,24 +13,26 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParents';
 import RederingLists from './components/RederingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
-  return (
-    <div className="App">
-      {/* <FunctionalGreetingWithProps greeting="nice to meet you" name="MIke" />
+    return (
+        <div className="App">
+            {/* <FunctionalGreetingWithProps greeting="nice to meet you" name="MIke" />
       <StatefulGreeting greeting="I'm a stateful class component" name="John" />
       <StatefulGreetingWithCallback /> */}
-      {/* <StatefulGreetingWithPrevState /> */}
-      {/* <EventsFuctional />
+            {/* <StatefulGreetingWithPrevState /> */}
+            {/* <EventsFuctional />
       <EventsClass /> */}
-      {/* <EventBinding /> */}
-      {/* <ConditionalRenderingClass />
+            {/* <EventBinding /> */}
+            {/* <ConditionalRenderingClass />
       <ConditionalRenderingFunctional connected={true} /> */}
-      {/* <NestingComponents /> */}
-      {/* <MethodsAsPropsParent /> */}
-      <RederingLists />
-    </div>
-  );
+            {/* <NestingComponents /> */}
+            {/* <MethodsAsPropsParent /> */}
+            {/* <RederingLists /> */}
+            <LifeCyclesCDM />
+        </div>
+    );
 }
 
 export default App;
