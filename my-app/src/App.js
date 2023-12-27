@@ -15,6 +15,7 @@ import MethodsAsPropsParent from './components/MethodsAsPropsParents';
 import RederingLists from './components/RederingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
     return (
@@ -32,7 +33,8 @@ function App() {
             {/* <MethodsAsPropsParent /> */}
             {/* <RederingLists /> */}
             {/* <LifeCyclesCDM /> */}
-            <LifeCyclesCDU />
+            {/* <LifeCyclesCDU /> */}
+            <LifeCyclesCWU />
         </div>
     );
 }
