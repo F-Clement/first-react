@@ -26,6 +26,7 @@ import HooksCounter from './components/HooksCounter';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 function App() {
     return (
@@ -54,7 +55,8 @@ function App() {
             {/* <HooksCounter /> */}
             {/* <UseEffectCounter /> */}
             {/* <UseEffectCounterContainer /> */}
-            <HTTPRequests />
+            {/* <HTTPRequests /> */}
+            <HTTPPost />
         </div>
     );
 }
