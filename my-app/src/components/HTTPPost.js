@@ -52,10 +52,6 @@ export class HTTPPost extends Component {
                         )
                         : <p>{this.state.error}</p>
                 }
-
-
-
-
             </div>
         );
     }
